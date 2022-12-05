@@ -2,6 +2,8 @@ footer {
 	color: #E5E8EF;
 	background: #000D;
 	padding: 50px 0; 
+	border-top-left-radius: 70px;
+	border-top-right-radius: 70px;
 }
 footer .footer-container {
 	max-width: 1300px;
@@ -79,5 +81,7 @@ footer .btn {
 	transition: opacity .3s linear;	
 }
 footer .btn:hover {
-	opacity: .7;
+	/* opacity: .7; */
+	transition: 1s;
+	border-radius: 40px;
 }

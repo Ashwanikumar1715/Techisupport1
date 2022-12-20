@@ -15,6 +15,10 @@ footer .footer-container {
 }
 footer .footer-container .right-col{
     width: 30%;
+
+
+	display: block;
+	margin: auto;
 }
 footer .footer-container .left-col{
     width: 25%;
@@ -29,12 +33,20 @@ footer .logo {
 	width: 100px;
 	color: #fff;
 }
+footer .social-media{
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+}
 footer .social-media a{
 	margin-right: 10px;
 	font-size: 22px;
 	text-decoration: none;
 }
 footer .right-col h1{
+	font-size: 26px;
+}
+footer .left-col h1{
 	font-size: 26px;
 }
 footer .border{
@@ -61,9 +73,15 @@ footer .txtb {
 	font-weight: 700;
 	outline: none;
 	border-radius: 5px;
-	min-width: 260px;
+	/* min-width: 260px; */
 	margin-top: 20px;
 	color: white;
+}
+
+@media (max-width: 785px){
+	footer .txtb{
+		width: 50px;
+	}
 }
 footer .btn {
 	margin-top: 20px;

@@ -58,6 +58,12 @@ app.get( "/templates/views/sourceCode/movingcircle" ,(req,res)=>{
 app.get( "/templates/views/sourceCode/searchimage" ,(req,res)=>{
     res.render("sourceCode/searchimage");
 })
+app.get( "/templates/views/sourceCode/sumvalidation" ,(req,res)=>{
+    res.render("sourceCode/sumvalidation");
+})
+app.get( "/templates/views/sourceCode/hoverboard" ,(req,res)=>{
+    res.render("sourceCode/hoverboard");
+})
 app.get( "*" ,(req,res)=>{
     res.render("404error");
 })
